@@ -146,28 +146,6 @@ data: {"error": "..."}
 
 ---
 
-## CRM Fields
-
-| Field | Description |
-|---|---|
-| `created_at` | Lead creation date/time |
-| `name` | Full name |
-| `email` | Primary email |
-| `country_code` | Country code (e.g. `+91`) |
-| `mobile_without_country_code` | Local number digits only |
-| `company` | Company/organisation |
-| `city` | City |
-| `state` | State |
-| `country` | Country |
-| `lead_owner` | Assigned agent/rep |
-| `crm_status` | `GOOD_LEAD_FOLLOW_UP` · `DID_NOT_CONNECT` · `BAD_LEAD` · `SALE_DONE` |
-| `crm_note` | Notes, follow-ups, extra emails/phones |
-| `data_source` | One of five allowed project sources |
-| `possession_time` | Property possession timeframe (real estate) |
-| `description` | Additional descriptive info |
-
----
-
 ## Configuration
 
 All tuning lives in `backend/src/config/constants.ts` and can be overridden via environment variables:
